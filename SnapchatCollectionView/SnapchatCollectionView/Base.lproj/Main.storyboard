@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="SnapchatCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y1L-zQ-PVJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJa-fD-nkJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DJ-Rn-9Qf">
+                                <rect key="frame" x="187" y="684" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4o6-VU-nkW"/>
+                                    <constraint firstAttribute="width" constant="40" id="wp6-p3-cPa"/>
+                                </constraints>
+                                <state key="normal" image="face_mode_icon"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="py9-tr-xub">
+                                <rect key="frame" x="169" y="600" width="76" height="76"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="record" translatesAutoresizingMaskIntoConstraints="NO" id="teQ-vf-Slm">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="76"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="teQ-vf-Slm" firstAttribute="leading" secondItem="py9-tr-xub" secondAttribute="leading" id="0Hc-XX-AgD"/>
+                                    <constraint firstAttribute="bottom" secondItem="teQ-vf-Slm" secondAttribute="bottom" id="1eg-Co-h5x"/>
+                                    <constraint firstAttribute="width" constant="76" id="6jp-Nc-Bl0"/>
+                                    <constraint firstAttribute="trailing" secondItem="teQ-vf-Slm" secondAttribute="trailing" id="Jg4-Db-h8K"/>
+                                    <constraint firstItem="teQ-vf-Slm" firstAttribute="top" secondItem="py9-tr-xub" secondAttribute="top" id="KKW-rI-7to"/>
+                                    <constraint firstAttribute="height" constant="76" id="bo8-WY-yp6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="T88-7t-fRt" firstAttribute="bottom" secondItem="py9-tr-xub" secondAttribute="bottom" constant="60" id="1zi-cU-CwK"/>
+                            <constraint firstItem="JJa-fD-nkJ" firstAttribute="leading" secondItem="T88-7t-fRt" secondAttribute="leading" id="Q70-oH-6HW"/>
+                            <constraint firstItem="JJa-fD-nkJ" firstAttribute="bottom" secondItem="T88-7t-fRt" secondAttribute="bottom" id="SWq-X7-KTa"/>
+                            <constraint firstItem="T88-7t-fRt" firstAttribute="bottom" secondItem="4DJ-Rn-9Qf" secondAttribute="bottom" constant="12" id="bpr-Bh-sC2"/>
+                            <constraint firstItem="JJa-fD-nkJ" firstAttribute="trailing" secondItem="T88-7t-fRt" secondAttribute="trailing" id="cch-V5-nFi"/>
+                            <constraint firstItem="py9-tr-xub" firstAttribute="centerX" secondItem="Y1L-zQ-PVJ" secondAttribute="centerX" id="fgA-ZD-DMM"/>
+                            <constraint firstItem="4DJ-Rn-9Qf" firstAttribute="centerX" secondItem="Y1L-zQ-PVJ" secondAttribute="centerX" id="rvD-aU-btb"/>
+                            <constraint firstItem="JJa-fD-nkJ" firstAttribute="top" secondItem="Y1L-zQ-PVJ" secondAttribute="top" id="zIl-Ms-kAz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T88-7t-fRt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="face_mode_icon" width="48" height="48"/>
+        <image name="record" width="80" height="80"/>
+    </resources>
+</document>
