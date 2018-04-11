@@ -19,6 +19,7 @@
 		155C5682207E511000AF55AA /* FilterModeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155C5681207E511000AF55AA /* FilterModeCell.xib */; };
 		155C5684207E512100AF55AA /* FilterModeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C5683207E512100AF55AA /* FilterModeDataSource.swift */; };
 		155C5686207E513C00AF55AA /* FilterModeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C5685207E513C00AF55AA /* FilterModeCollectionViewFlowLayout.swift */; };
+		155C5688207E62BF00AF55AA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C5687207E62BF00AF55AA /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		155C5681207E511000AF55AA /* FilterModeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterModeCell.xib; sourceTree = "<group>"; };
 		155C5683207E512100AF55AA /* FilterModeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModeDataSource.swift; sourceTree = "<group>"; };
 		155C5685207E513C00AF55AA /* FilterModeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		155C5687207E62BF00AF55AA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				155C566E207E506D00AF55AA /* Assets.xcassets */,
 				155C5670207E506D00AF55AA /* LaunchScreen.storyboard */,
 				155C5673207E506D00AF55AA /* Info.plist */,
+				155C5687207E62BF00AF55AA /* Utils.swift */,
 			);
 			path = SnapchatCollectionView;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				155C566A207E506C00AF55AA /* ViewController.swift in Sources */,
 				155C5686207E513C00AF55AA /* FilterModeCollectionViewFlowLayout.swift in Sources */,
 				155C567B207E50D100AF55AA /* FilterModeView.swift in Sources */,
+				155C5688207E62BF00AF55AA /* Utils.swift in Sources */,
 				155C5680207E510000AF55AA /* FilterModeCell.swift in Sources */,
 				155C5666207E506C00AF55AA /* AppDelegate.swift in Sources */,
 				155C5684207E512100AF55AA /* FilterModeDataSource.swift in Sources */,

@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lya-L6-YYi">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lya-L6-YYi" customClass="FilterModeCell" customModule="SnapchatCollectionView" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="80" height="76"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -61,6 +61,12 @@
                 <constraint firstItem="DXq-iC-Les" firstAttribute="top" secondItem="lya-L6-YYi" secondAttribute="top" constant="5" id="tBO-nW-VLX"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Ueb-ul-B41"/>
+            <connections>
+                <outlet property="backgroundImage" destination="sek-RW-TIg" id="6Jf-RG-xzd"/>
+                <outlet property="downloadImageView" destination="qWp-Zi-etB" id="Oxb-29-Md2"/>
+                <outlet property="filterImage" destination="u5v-6b-QK8" id="Ndh-i9-8IS"/>
+                <outlet property="indicator" destination="CRA-lv-M3q" id="RWR-G3-8f8"/>
+            </connections>
             <point key="canvasLocation" x="11" y="1"/>
         </collectionViewCell>
     </objects>
