@@ -28,6 +28,9 @@
                                     <constraint firstAttribute="width" constant="40" id="wp6-p3-cPa"/>
                                 </constraints>
                                 <state key="normal" image="face_mode_icon"/>
+                                <connections>
+                                    <action selector="filterModeButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="K8Q-br-BYM"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="py9-tr-xub">
                                 <rect key="frame" x="169" y="600" width="76" height="76"/>
@@ -60,6 +63,11 @@
                         <viewLayoutGuide key="safeArea" id="T88-7t-fRt"/>
                     </view>
                     <connections>
+                        <outlet property="filterModeButton" destination="4DJ-Rn-9Qf" id="LcP-Fg-yjP"/>
+                        <outlet property="filterModeButtonBottomConstraint" destination="bpr-Bh-sC2" id="AcU-Dd-58c"/>
+                        <outlet property="recordButton" destination="py9-tr-xub" id="UNb-yv-Srr"/>
+                        <outlet property="recordButtonBottomConstraint" destination="1zi-cU-CwK" id="S3o-8v-P0k"/>
+                        <outlet property="recordButtonImage" destination="teQ-vf-Slm" id="uX9-yJ-eZ9"/>
                         <outlet property="sceneView" destination="JJa-fD-nkJ" id="VCB-Hz-dId"/>
                     </connections>
                 </viewController>

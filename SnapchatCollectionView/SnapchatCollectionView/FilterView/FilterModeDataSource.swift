@@ -99,7 +99,7 @@ class FilterModeDataSource: NSObject, UICollectionViewDelegate, UICollectionView
         
         cell.indicator.stopAnimating()
         
-        cell.downloadImageView.image = nil
+        //cell.downloadImageView.image = nil // remove the image
         return cell
     }
     
